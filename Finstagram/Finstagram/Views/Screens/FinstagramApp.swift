@@ -6,9 +6,18 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
+class AppDelegate: NSObject, UIApplicationDelegate{
+    private func application(_ application: UIApplication, didfinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+}
 @main
 struct FinstagramApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

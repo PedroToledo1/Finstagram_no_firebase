@@ -39,6 +39,21 @@
                   usesParentBreakpointCondition = "Yes"
                   offsetFromSymbolStart = "10">
                </Location>
+               <Location
+                  uuid = "F4ACC240-5F9C-45F0-B338-42D0494C7591 - fe69f61cbb778fd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "key path setter for Finstagram.SettingeditImageView.title : Swift.String : Finstagram.SettingeditImageView"
+                  moduleName = "Finstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hectorpedrotoledo/Desktop/Curso%20IOS/Finstagram/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
